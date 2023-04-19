@@ -7,7 +7,7 @@ First, we need to install the required dependencies:
 - Multer is middleware for handling multipart/form-data, which is primarily used for uploading files.
 - fs is a Node.js module for interacting with the file system.
 
-## to run the server use
+## To run the server use
 
 ` node server.js `
 
