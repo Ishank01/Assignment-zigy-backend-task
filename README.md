@@ -17,6 +17,9 @@ The code defines three routes:
 - /stream/:filename: This is a GET route for streaming a video file. It reads the file from the ./uploads directory and sends it as a stream in response. It also supports streaming partial content using HTTP range headers.
 - /download/:filename: This is a GET route for downloading a video file. It sends the file as an attachment in response.
 
+Make sure to create a directory named uploads in the project directory.
+
+
 ## To test the code
 
 ### Uploading a video file:
